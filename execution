@@ -1,0 +1,5 @@
+mvn package
+
+/home/cloudera/spark-1.4.0-bin-hadoop2.6/bin/spark-submit --class "org.cristina.CarteraInversionSpark" --master spark://quickstart.cloudera:7077 /home/cloudera/Desktop/CarteraInversionSpark/target/CI-spark-1.0.jar /home/cloudera/Desktop/CovarianzaSpark-master/CI1000.txt salidaSpark
+
+
